@@ -9,6 +9,6 @@ class App extends Component {
       </View>
     );
   }
-};
+}
 
 export default App;
