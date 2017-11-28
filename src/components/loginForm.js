@@ -20,7 +20,8 @@ class LoginForm extends Component {
         </CardSection>
         
         <CardSection>
-          <Input 
+          <Input
+            secureTextEntry //ES6, don't need to enter Bool if it's true.
             placeholder="password"
             label="Password"
             value={this.state.password}
